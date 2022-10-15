@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinDllExam", "WinDllExam.vcproj", "{8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testWinDllExam", "..\testWinDllExam\testWinDllExam.vcproj", "{65439E21-039A-494F-80A3-17A5971461A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF} = {8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF}.Debug|Win32.Build.0 = Debug|Win32
+		{8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF}.Release|Win32.ActiveCfg = Release|Win32
+		{8D7467F4-C8E4-4FC9-A8C7-84B89B63BADF}.Release|Win32.Build.0 = Release|Win32
+		{65439E21-039A-494F-80A3-17A5971461A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65439E21-039A-494F-80A3-17A5971461A9}.Debug|Win32.Build.0 = Debug|Win32
+		{65439E21-039A-494F-80A3-17A5971461A9}.Release|Win32.ActiveCfg = Release|Win32
+		{65439E21-039A-494F-80A3-17A5971461A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
